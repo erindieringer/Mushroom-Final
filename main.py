@@ -19,9 +19,18 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 
 @app.route('/')
 def index():
-    template = JINJA_ENVIRONMENT.get_template('index.html')
+    template = JINJA_ENVIRONMENT.get_template('templates/index.html')
+    return template.render()
+    
+@app.route('/data')
+def data():
+    template = JINJA_ENVIRONMENT.get_template('templates/data.html')
     return template.render()
 
+@app.route('/about')
+def about():
+    template = JINJA_ENVIRONMENT.get_template('templates/about.html')
+    return template.render()
 
 @app.errorhandler(404)
 def page_not_found(e):
