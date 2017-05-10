@@ -1,0 +1,17 @@
+h1 {
+	text-align :center;    
+	text-shadow:
+    -.5px -.5px 0 #000,
+    .5px -.5px 0 #000,
+    -.5px -.5px 0 #000,
+    1px 1px 0 #000;  
+}
+p.jumbotron {
+	text-align :center;
+	background-color: rgba(120, 137, 117, 0.5);
+	
+}
+
+img {
+	height: 100px;
+}
