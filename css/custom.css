@@ -15,3 +15,10 @@ p.jumbotron {
 img {
 	height: 100px;
 }
+
+.warning {
+	color :white;
+	background-color: rgba(244, 66, 66, 0.8);
+	padding:10px;
+	border-radius: 5px;
+}
