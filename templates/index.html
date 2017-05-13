@@ -160,7 +160,6 @@
 										<li> Parasites attack living plants or animals. </li>
 										<li> Mycorrhizal mushrooms have a symbiotic relationship with plants, usually either trees or shrubs.  </li>
 		                            </p></ol>
-		                            <p> (Picture of some sort) </p>
 		                            <img id="habitat" src="/images/Agaricus_bisporus.jpg" alt="mushroom" >
 		                        </div>
 		                    </div>
@@ -194,7 +193,7 @@
 					         </div> 
 					    </div>
 		               	<div class="item" style="height:500px;">
-					        <img class="slide" src= "/images/Overview of Mushroom Attributes.png" alt = 'mushroon' style="height:100%;"/>
+					        <img class="slide" src= "/images/Overview of Mushroom Attributes_inverted.png" alt = 'mushroon' style="height:100%;"/>
 					         <div class="container"> 
 					            <div class="carousel-caption">
 					              <h4>Overview of Visual Cues</h4>
@@ -213,6 +212,80 @@
 					            </div>
 					         </div> 
 					    </div>
+		       			<div class="item" style="height:500px;">
+		                    <div class="carousel-content">
+		                    	<div>
+					              <h2>Gills</h2>
+					              <p>Although the caps are important indicators of mushrooms, looking under the cap is important to make a proper identification. The gills are platelike structures on the 
+					              underside of the cap; they radiate out from the stalk and produce spores, which is how mushrooms reproduce. </p>
+
+					            </div>
+					         </div> 
+					    </div>
+					   <div class="item" style="height:500px;">
+					        <img class="slide" src= "/images/mushroom wireframes_Mushroom Colors.png" alt = 'mushroon' style="height:100%;"/>
+					    </div>
+					    <div class="item" style="height:500px;">
+					        <img class="slide" src= "/images/mushroom wireframes_Gill Color.png" alt = 'mushroon' style="height:100%;"/>
+					    </div>
+					    <div class="item" style="height:500px;">
+					        <img class="slide" src= "/images/mushroom wireframes_Gill Size .png" alt = 'mushroon' style="height:100%;"/>
+					    </div>
+					  <div class="item" style="height:500px;">
+		                    <div class="carousel-content">
+		                    	<div>
+					              <h2>Spore Print Color</h2>
+					              <p>A spore print is essential for accurate identification of many mushrooms. It's simple to make a spore print from a mushroom.<p>
+					              <p> <ol> 
+					              	<li>Remove the stem by carefully cutting it off where it meets the cap.</li>
+					              	<li>Put the cap on a clean piece of paper (fresh typing paper for instance), gills facing down. </li>
+					              	<li>Cover the paper and cap with a glass, a jar or tub of some sort - to maintain the humidity 
+					              	around the cap. Sometimes the spores fall more readily if you place a drop of water on the cap before you cover it. </li>
+					              	<li>Leave it for a few hours (typically overnight) and then remove the jar and cap. </li>
+					              	<li>Cover the print with a clean paper napkin and let it dry until the paper is not moist anymore. </li>
+					              </ol></p>
+					              <p>Over the hours, mature spores will have been released from the gills and fallen onto the paper. What you see in a spore print, is a mass of hundreds of thousands or
+					              millions of spores. In this quantity the color is easy to see. The most common spore colors are white and various shades of brown. If the spores are white or buff, you
+					              obviously won't see them very well on white paper. It might be a good idea to place the cap halfway on white and half on dark paper.</p>
+					              <p>Note that the color of the gills may not be the same as the color of the spores. If your spore print is very weak (or not there) put the cap and tub back down and leave
+					              it for longer - even overnight. Some species take a long time to build up a good spore deposit. It's also possible that the cap had already started to dry out when you collected
+					              it. It's hard to get spore prints from mushrooms with small, thin caps as they dry out very quickly. </p>
+					            </div>
+					         </div> 
+					    </div>
+					    <div class="item" style="height:500px;">
+					        <img class="slide" src= "/images/mushroom wireframes_spore Color.png" alt = 'mushroon' style="height:100%;"/>
+					    </div>
+					    <div class="item" style="height:500px;">
+					        <img class="slide" src= "/images/mushroom wireframes_Mushroom Veils.png" alt = 'mushroon' style="height:100%;"/>
+					         <div class="container"> 
+					            <div class="carousel-caption">
+					              <h4>Ring Type</h4>
+					              <p>Many species have a ring, a skirt or bandlike tissue, or a zone of fibers on the stalk left by the partial veil as the mushroom expands. Other have a cup 
+					              (also called a volva) or bits of tissue on the stalk base. </p>
+					            </div>
+					         </div> 
+					    </div>
+					    <div class="item" style="height:500px;">
+					        <img class="slide" src= "/images/mushroom wireframes_Stalk Textures.png" alt = 'mushroon' style="height:100%;"/>
+					         <div class="container"> 
+					            <div class="carousel-caption">
+					              <h4>Stalk Surface Above and Below the Ring</h4>
+					              <p>Some mushrooms may have rings around them, and the surface above and below that ring can be an important characteristic of a mushroom. </p>
+					            </div>
+					         </div> 
+					    </div>
+					    <div class="item" style="height:500px;">
+					        <img class="slide" src= "/images/mushroom wireframes_Mushroom Stalks .png" alt = 'mushroon' style="height:100%;"/>
+					         <div class="container"> 
+					            <div class="carousel-caption">
+					              <h4>Stalk Shape</h4>
+					              <p>Most gilled mushrooms have a stalk. Stalks come in various shapes some are equal, or have the same width from top to bottom. Others are club-shaped. The base of the stalk
+					              could be bulbous, have a cap or volva, tapering to a rootlike growth at the base, or it may have runner or rhizomorphs growing out of them. </p>
+					            </div>
+					         </div> 
+					    </div>
+					
 		                
 		            </div>
 		        <!-- </div> -->
@@ -236,19 +309,14 @@
 	
 	 <!-- RShiny
 	    ================================================== -->  
-	 <div class="container">
-		<iframe src="https://ids-mushrooms.shinyapps.io/mushroomsclassifier/" style="width:100%;height:400px;"></iframe>
+	 <div class="container" id="iframe">
+		<iframe src="https://ids-mushrooms.shinyapps.io/mushroomsclassifier/" style="width:100%;height:600px;"></iframe>
+	
+		<footer class="container-footer text-center"><p class="copyright text-muted small">&copy; <a href="/about">Interactive Data Science Team</a></p></footer>
 	</div>
-	 <br>
-	 <br>
-	 <br>
-	 <br>
-	 <br>
+	<br>
 	 <br>
 	
-	
-
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -259,6 +327,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
+  
+
   
 
 

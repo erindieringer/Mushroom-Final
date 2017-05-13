@@ -40,3 +40,16 @@ img {
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
+
+.glyphicon.glyphicon-chevron-right{
+   color:grey;
+}
+
+.glyphicon.glyphicon-chevron-left{
+   color:grey;
+}
+
+iframe {
+	padding:20px;
+ 	border: 0;
+}
