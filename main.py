@@ -31,6 +31,11 @@ def data():
 def about():
     template = JINJA_ENVIRONMENT.get_template('templates/about.html')
     return template.render()
+    
+@app.route('/slides')
+def slides():
+    template = JINJA_ENVIRONMENT.get_template('templates/slides.html')
+    return template.render()
 
 @app.errorhandler(404)
 def page_not_found(e):
